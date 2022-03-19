@@ -1,0 +1,11 @@
+{
+  "name": "dbtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "github-db": "^1.1.3"
+  }
+}
