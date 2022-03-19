@@ -6,6 +6,6 @@
   "type": "module",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "github-kv": "^1.0.0"
+    "github-keyvalue": "^1.0.0"
   }
 }
