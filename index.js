@@ -1,7 +1,7 @@
 import 'dotenv/config';
-import { GithubDB } from "github-db";
+import { GithubKV } from "github-db";
 
-let db = new GithubDB({ token: process.env.PERSONAL_TOKEN, owner: 'xrdavies', repo: 'github-db', branch: 'db' });
+let db = new GithubKV({ token: process.env.PERSONAL_TOKEN, owner: 'xrdavies', repo: 'github-db', branch: 'db' });
 
 console.log(await db.get('test2.json'));
 
